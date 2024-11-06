@@ -1,0 +1,35 @@
+nav a{
+    text-decoration: none;
+    color: white;
+    font-size: 25px;
+}
+nav simple{
+    color: gray;
+}
+nav{
+    background-color: gray;
+    text-align: right;
+    padding: 10px;
+}
+*{
+    font-family: 'Courier New', Courier, monospace;
+}
+h1{
+    text-align: center;
+    font-size: 100px;
+}
+
+#hero{
+    padding: 200px;
+}
+button{
+    display: block;
+    border: 5px solid blue;
+    border-radius: 5px;
+}
+button::after{
+    content: "See my work";
+}
+button::after:hover{
+    content: "See my work <i class=\"nf nf-fa-arrow_right\">";
+}
