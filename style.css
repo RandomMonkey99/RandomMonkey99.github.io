@@ -3,6 +3,9 @@ nav a{
     color: white;
     font-size: 25px;
 }
+nav a.home{
+    margin-right: 50%;
+}
 nav simple{
     color: gray;
 }
@@ -24,12 +27,16 @@ h1{
 }
 button{
     display: block;
-    border: 5px solid blue;
+    border: 5px solid gray;
     border-radius: 5px;
+    height: 50px;
+    width: 200px;
+    font-size: 30px;
+    text-decoration: none;
+    color: black;
+    background-color: gray;
 }
-button::after{
-    content: "See my work";
-}
-button::after:hover{
-    content: "See my work <i class=\"nf nf-fa-arrow_right\">";
+a{
+    text-decoration: none;
+    text-transform: capitalize;
 }
