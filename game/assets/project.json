@@ -9,11 +9,11 @@
                     "GO!!!!!!!!!!!!"
                 ],
                 "JQ8B_3~N#8.BFT#MFERX": [
-                    "Blau",
+                    "Blue",
                     0
                 ],
                 "xg#M?=RX.A.J6JI`jrty": [
-                    "Rot",
+                    "Red",
                     0
                 ],
                 "NZXv2SD2ItW6G!_NBKGp": [
@@ -668,7 +668,7 @@
                     },
                     "fields": {
                         "VARIABLE": [
-                            "Rot",
+                            "Red",
                             "xg#M?=RX.A.J6JI`jrty"
                         ]
                     }
@@ -845,7 +845,7 @@
                     },
                     "fields": {
                         "VARIABLE": [
-                            "Rot",
+                            "Red",
                             "xg#M?=RX.A.J6JI`jrty"
                         ]
                     }
@@ -915,7 +915,7 @@
                             3,
                             [
                                 12,
-                                "Rot",
+                                "Red",
                                 "xg#M?=RX.A.J6JI`jrty"
                             ],
                             [
@@ -942,7 +942,7 @@
                             1,
                             [
                                 10,
-                                "Rot Gewinnt"
+                                "Red Won"
                             ]
                         ]
                     },
@@ -1670,7 +1670,7 @@
             "mode": "default",
             "opcode": "data_variable",
             "params": {
-                "VARIABLE": "Rot"
+                "VARIABLE": "Red"
             },
             "spriteName": null,
             "value": 0,
