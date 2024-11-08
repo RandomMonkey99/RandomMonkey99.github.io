@@ -1,3 +1,19 @@
+aside a{
+    text-decoration: none;
+    color: white;
+    font-size: 25px;
+}
+aside a.home{
+    margin-right: 50%;
+}
+aside simple{
+    color: gray;
+}
+nav{
+    background-color: gray;
+    text-align: right;
+    padding: 10px;
+}
 nav a{
     text-decoration: none;
     color: white;
