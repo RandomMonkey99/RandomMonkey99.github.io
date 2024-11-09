@@ -66,6 +66,16 @@ a {
 	-moz-border-radius: 5px;
 	border-radius: 5px;
 }
+#hero h1.haupt{
+	text-align: center;
+	margin: 100px;
+	font-size: 100px;
+	color: #f4f4f4;
+}
+body.index{
+	background-image: url("https://media.giphy.com/media/A06UFEx8jxEwU/giphy.gif");
+	background-size: cover;
+}
 
 
 /* ================================= 
