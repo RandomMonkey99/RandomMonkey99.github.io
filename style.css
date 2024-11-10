@@ -69,7 +69,7 @@ a {
 #hero h1.haupt{
 	text-align: center;
 	margin: 100px;
-	font-size: 100px;
+	font-size: 80%;
 	color: #f4f4f4;
 }
 body.index{
