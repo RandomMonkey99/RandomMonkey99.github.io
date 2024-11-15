@@ -1,5 +1,5 @@
-html{
-	cursor: url(/assets/cursor.cur);
+*{
+	cursor: url("/assets/cursor.png") -10 -10, auto;
 }
 body {
 	font-family: 'Montserrat', sans-serif;
