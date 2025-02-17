@@ -380,7 +380,7 @@ nav.light-mode ul li a:hover {
     border: 2px solid #ccc; /* Restore border */
 }
 
-switch input:checked + label::after {
+.switch input:checked + label::after {
     transform: translateX(26px);
 }
 
