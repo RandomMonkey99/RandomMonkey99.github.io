@@ -361,6 +361,7 @@ nav.light-mode ul li a:hover {
     position: relative;
     width: 50px;
     border: 2px solid #333; /* Restore border */
+    transition: background-color 0.3s, border-color 0.3s; /* Add transition */
 }
 
 .switch label::after {
@@ -371,7 +372,7 @@ nav.light-mode ul li a:hover {
     left: 2px;
     position: absolute;
     top: 2px;
-    transition: 0.3s;
+    transition: transform 0.3s, background-color 0.3s; /* Add transition */
     width: 20px;
 }
 
@@ -380,8 +381,9 @@ nav.light-mode ul li a:hover {
     border: 2px solid #ccc; /* Restore border */
 }
 
-switch input:checked + label::after {
+.switch input:checked + label::after {
     transform: translateX(26px);
+    background-color: #fff; /* Add transition */
 }
 
 body {
