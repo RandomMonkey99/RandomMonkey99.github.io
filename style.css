@@ -247,6 +247,10 @@ body.dark-mode .about {
     margin-bottom: 20px;
 }
 
+body.dark-mode .languages {
+    background-color: #333; /* Dark background color for dark mode */
+}
+
 .language-icons {
     display: flex;
     justify-content: center;
