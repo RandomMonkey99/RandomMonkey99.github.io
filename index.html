@@ -16,7 +16,7 @@
             <li><a href="#about">About</a></li>
             <li><a href="#projects">Projects</a></li>
             <li><a href="#contact">Contact</a></li>
-            
+            <li><a href="#nintendo">Nintendo</a></li>
         </ul>
         <div class="switch">
             <input type="checkbox" id="theme-toggle">
@@ -32,7 +32,7 @@
     </section>
     <section class="about" id="about">
         <h2>About Me</h2>
-        <p>Hello! I'm RandomMonkey99, a passionate developer with a love for creating innovative and efficient solutions. I enjoy working on a variety of projects and continuously learning new technologies to improve my skills. Welcome to my portfolio!</p>
+        <p>Hello! I'm RandomMonkey99, a passionate developer with a love for creating innovative and efficient solutions. I enjoy working on a variety of projects and continuously learning new technol[...]
     </section>
     <section class="languages" id="languages">
         <h2>Languages I Use</h2>
@@ -58,6 +58,12 @@
                 <button type="submit">Send Email</button>
             </form>
         </div>
+    </section>
+    <!-- New Nintendo Section -->
+    <section class="nintendo" id="nintendo">
+        <h2>Nintendo</h2>
+        <img src="nintendo.png" alt="Nintendo" id="nintendo-image">
+        <button onclick="openFullscreen()">View Fullscreen</button>
     </section>
     <footer>
         <p>&copy; 2025 RandomMonkey99. All rights reserved.</p>
@@ -116,6 +122,18 @@
             document.body.classList.toggle('dark-mode');
             document.body.classList.toggle('light-mode');
         });
+
+        // Fullscreen functionality
+        function openFullscreen() {
+            const nintendoImage = document.getElementById('nintendo-image');
+            if (nintendoImage.requestFullscreen) {
+                nintendoImage.requestFullscreen();
+            } else if (nintendoImage.webkitRequestFullscreen) { /* Safari */
+                nintendoImage.webkitRequestFullscreen();
+            } else if (nintendoImage.msRequestFullscreen) { /* IE11 */
+                nintendoImage.msRequestFullscreen();
+            }
+        }
     </script>
 </body>
 </html>
